@@ -1,9 +1,5 @@
-
-
-export const utils = {
-  testFunc: () => {
+export const testFunc = () => {
     const y = [];
     y.push(3);
-    return {t: y};
-  }
+    return  y;
 };
