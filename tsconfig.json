@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "aaalib2": [
+        "dist/aaalib2"
+      ],
+      "aaalib2/*": [
+        "dist/aaalib2/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
